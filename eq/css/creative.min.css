@@ -1,0 +1,514 @@
+/*!
+ * Start Bootstrap - Createive v4.0.0-beta (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif
+}
+
+hr {
+    max-width: 50px;
+}
+
+hr.light {
+    /*color rayita bajo encabezado del centro */
+    border-color: #FFFFFF
+}
+
+a {
+    color: #f05f40;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+a:focus,
+a:hover {
+    color: #f05f40
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px
+}
+
+.bg-primary {
+    /*Color de la barra grande del menu de mision, vision, etc..*/
+    background-color: rgb(31, 100, 199)!important
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222!important
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, .7);
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+
+}
+
+section {
+    padding: 100px 0
+}
+
+.section-heading {
+    margin-top: 0
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #222;
+    text-shadow: none
+}
+
+::selection {
+    color: #fff;
+    background: #222;
+    text-shadow: none
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0
+}
+
+body {
+    -webkit-tap-highlight-color: #222
+}
+
+#mainNav {
+    border-color: rgba(34, 34, 34, .05);
+    background-color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+#mainNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f05f40;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: #f05f40
+}
+
+#mainNav .navbar-toggle {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #3298E4
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color: #286897!important;
+    background-color: white
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
+    background-color: #FFFFFF
+}
+
+@media (min-width:992px) {
+    #mainNav {
+        border-color: rgba(255, 255, 255, .3);
+        /*color de barra de menu*/
+        background-color: #FFFFFF
+    }
+    #mainNav .navbar-brand {
+        /*color eqsolutions sin seleccionar*/
+        color: rgba(208, 27, 27, 0.70)
+    }
+    #mainNav .navbar-brand:focus,
+    #mainNav .navbar-brand:hover {
+        /*colo eqSolutions al ser seleccionado*/
+        color: #5E90D9
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+        /*color de las opciones del menu*/
+        color: rgb(16, 15, 15)
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+        /*color de las opciones del menu al ser seleccionadas*/
+        color: #CE1D1D
+    }
+    #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, .05);
+        /*color barra de menu cuando baja*/
+        background-color: #FFFFFF
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 16px;
+        /*color eq solutions cuando baja la barra*/
+        color: #F04067
+    }
+    #mainNav.navbar-shrink .navbar-brand:focus,
+    #mainNav.navbar-shrink .navbar-brand:hover {
+        /*color eq solutions al seleccionar cuando baja*/
+        color: #3E7BE4
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+        olor: #222
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #3B77B5
+    }
+}
+
+header.masthead {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #030303;
+    background-image: url(../img/header.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+header.masthead .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center
+}
+
+header.masthead .header-content .header-content-inner h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+header.masthead .header-content .header-content-inner hr {
+    margin: 30px auto
+}
+
+header.masthead .header-content .header-content-inner p {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: -50px;
+    /*color de el texto bajo el encabezado principal*/
+    color: rgba(0, 0, 0, 0.7)
+}
+
+@media (min-width:768px) {
+    header.masthead {
+        height: 100%;
+        min-height: 500px
+    }
+    header.masthead .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%)
+    }
+    header.masthead .header-content .header-content-inner {
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto
+    }
+    header.masthead .header-content .header-content-inner h1 {
+        /*colo "El mejor lugar en saltillo"*/
+        font-size: 50px;
+        color: #000000;
+    }
+    header.masthead .header-content .header-content-inner p {
+        font-size: 18px;
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+.service-box {
+    max-width: 400px;
+    margin: 50px auto 0
+}
+
+@media (min-width:992px) {
+    .service-box {
+        margin: 20px auto 0
+    }
+}
+
+.service-box p {
+    margin-bottom: 0
+}
+
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto
+}
+
+.portfolio-box .portfolio-box-caption {
+    /*colores de los box de imagenes */
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(80, 115, 204, 0.90);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1
+}
+
+.portfolio-box:focus {
+    outline: 0
+}
+
+@media (min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px
+    }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px
+    }
+}
+
+.call-to-action {
+    padding: 50px 0
+}
+
+.call-to-action h2 {
+    margin: 0 auto 20px
+}
+
+.text-primary {
+    /*colo iconos */
+    color: #50AAC3!important
+}
+
+.no-gutter>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.btn-default {
+    color: #222;
+    border-color: #fff;
+    background-color: #4ECCE8
+}
+
+.btn-default.focus,
+.btn-default:focus {
+    color: #222;
+    border-color: #bfbfbf;
+    background-color: #e6e6e6
+}
+
+.btn-default:hover {
+    color: #222;
+    border-color: #e0e0e0;
+    background-color: #e6e6e6
+}
+
+.btn-default.active,
+.btn-default:active,
+.open>.btn-default.dropdown-toggle {
+    color: #222;
+    border-color: #e0e0e0;
+    background-color: #e6e6e6
+}
+
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.btn-default.dropdown-toggle.focus,
+.open>.btn-default.dropdown-toggle:focus,
+.open>.btn-default.dropdown-toggle:hover {
+    color: #222;
+    border-color: #bfbfbf;
+    background-color: #d4d4d4
+}
+
+.btn-default.active,
+.btn-default:active,
+.open>.btn-default.dropdown-toggle {
+    background-image: none
+}
+
+.btn-default.disabled.focus,
+.btn-default.disabled:focus,
+.btn-default.disabled:hover,
+.btn-default[disabled].focus,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default.focus,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default:hover {
+    border-color: #fff;
+    background-color: #fff
+}
+
+.btn-default .badge {
+    color: #fff;
+    background-color: #222
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #f05f40;
+    background-color: #f05f40
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    border-color: #a4270d;
+    background-color: #04226B
+}
+
+.btn-primary:hover {
+    color: #fff;
+    border-color: #e13612;
+    background-color: #eb3812
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.btn-primary.dropdown-toggle {
+    color: #fff;
+    border-color: #e13612;
+    background-color: #eb3812
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.btn-primary.dropdown-toggle.focus,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle:hover {
+    color: #fff;
+    border-color: #a4270d;
+    background-color: #c93110
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.btn-primary.dropdown-toggle {
+    background-image: none
+}
+
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+    border-color: #f05f40;
+    background-color: #f05f40
+}
+
+.btn-primary .badge {
+    color: #f05f40;
+    background-color: #fff
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+
+.btn-xl {
+    padding: 15px 30px
+}
